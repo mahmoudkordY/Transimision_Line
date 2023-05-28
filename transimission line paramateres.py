@@ -214,7 +214,9 @@ def calculate():
 
     sedpowc_label.config(text=f"Sending end power factor  = {cos(phis).real:.5f}")
     sedpowc_label.grid(row=22,column=0)
-# def cabling():  
+
+#these codes are for making a cable calculations    
+# def cabling():      
 #     response = messagebox.askyesno("Show Other Page", "Do you want to do cable sizing?")
 #     if response:
 #              #Create and show the other page
